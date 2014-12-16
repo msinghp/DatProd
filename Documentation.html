@@ -53,13 +53,14 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 
 
 <p><strong>Introduction</strong></p>
-<p>BMI is Short for Body Mass Index. It is computed as a composite of of Weight and Height. I is a good predictor of health issues and may be used for both children and adults</p>
+<p><em>BMI is Short for Body Mass Index.</em> It is computed as a composite of of Weight and Height and is a good predictor of health issues. It may be used for both children and adults</p>
 <p><strong>Algorithm</strong></p>
 <p>The algorithm has two inputs - the height in inches and the weight in pounds.</p>
 <p>The BMI formula is</p>
-<p><em>BMI = Weight</em>703/Height^2</p>
+<p><span class="math">\(BMI = 703*Weight/Height^2\)</span></p>
+<p>Where 703 is a constant</p>
 <p><strong>Program Implementation</strong></p>
-<p>The program was implemented as an R Shiny App and consisted of two parts server.R and ui.R. The ui.R implemented the front end and server.R implmented the back-end</p>
+<p>The program was implemented as an R Shiny App and consisted of two parts - a server.R and a ui.R. The ui.R implemented the front end and server.R implmented the back-end</p>
 <p><strong>How to Use</strong></p>
 <p>Input the height and weight. The program computes the BMI automatically</p>
 
